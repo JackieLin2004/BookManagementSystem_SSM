@@ -9,171 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be19e4db-d701-4d8e-9c30-f3b5f03bbc7f" name="Changes" comment="Complete some basic framework configurations">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/auth.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/calender.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/css2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/datatables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/icofont.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/jqvmap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/nice-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/range.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/swiper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmEU9fBBc4.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmSU5fBBc4.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmWUlfBBc4.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmYUtfABc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmYUtfBBc4.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmYUtfBxc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmYUtfCBc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmYUtfCRc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmYUtfChc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOmCnqEu92Fr1Mu4WxKOzY.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOmCnqEu92Fr1Mu4mxK.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOmCnqEu92Fr1Mu5mxKOzY.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOmCnqEu92Fr1Mu72xKOzY.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOmCnqEu92Fr1Mu7GxKOzY.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOmCnqEu92Fr1Mu7WxKOzY.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/KFOmCnqEu92Fr1Mu7mxKOzY.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/icofont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLBT5Z11lFc-K.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLBT5Z1JlFc-K.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLDD4Z11lFc-K.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLDD4Z1JlFc-K.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLFj_Z11lFc-K.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLFj_Z1JlFc-K.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLFj_Z1xlFQ.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiEyp8kv8JHgFVrJJbecmNE.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiEyp8kv8JHgFVrJJfecg.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiEyp8kv8JHgFVrJJnecmNE.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiGyp8kv8JHgFVrLPTucHtA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiGyp8kv8JHgFVrLPTucXtAKPY.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/pxiGyp8kv8JHgFVrLPTufntAKPY.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/auth-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/o_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/o_icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/o_icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/sad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/apexcharts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/calendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ckeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/control-chart-apexcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/dataTables.responsive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/datatables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.appear.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.countTo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.vmap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.vmap.sampledata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.vmap.world.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/nice-select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/swiper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/tag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/tagging.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/auth-img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/carousal1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/carousal2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/carousal3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/carousal4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/carousal5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/carousal6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/carousal7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/carousal8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/carousal9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/p1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/p2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/p3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/p4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/p5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/p6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/p7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/p8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/pro1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/pro2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/pro3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/product.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/product2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/product3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/product4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/thumb1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/thumb2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/thumb3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/thumb4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/user1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/user2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/user3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/picture/user4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca6ef2a-6778-417d-96ef-4af0711e6ffd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca6ef2a-6778-417d-96ef-4af0711e6ffd.xml" afterDir="false" />
+    <list default="true" id="be19e4db-d701-4d8e-9c30-f3b5f03bbc7f" name="Changes" comment="Complete the login and remember me related functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/MainConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/MainConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/MvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/MvcConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,6 +77,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -259,14 +97,13 @@
   <component name="RunManager">
     <configuration name="Tomcat 10.0.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.20" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/book-management-system-ssm/" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="BookManagementSystem_SSM:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/book-management-system-ssm" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -366,7 +203,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722439470236</updated>
       <workItem from="1722439471276" duration="2561000" />
-      <workItem from="1722474435649" duration="4021000" />
+      <workItem from="1722474435649" duration="9553000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -384,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722441767676</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Complete the login and remember me related functions">
+      <option name="closed" value="true" />
+      <created>1722479116856</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722479116856</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,6 +238,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Complete some basic framework configurations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete some basic framework configurations" />
+    <MESSAGE value="Complete the login and remember me related functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete the login and remember me related functions" />
   </component>
 </project>
