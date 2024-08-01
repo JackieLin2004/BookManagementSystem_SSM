@@ -9,10 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be19e4db-d701-4d8e-9c30-f3b5f03bbc7f" name="Changes" comment="Complete the return book function">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/BorrowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/BorrowController.java" afterDir="false" />
+    <list default="true" id="be19e4db-d701-4d8e-9c30-f3b5f03bbc7f" name="Changes" comment="Complete some functions of book management">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/BookServiceImpl.java" afterDir="false" />
     </list>
@@ -210,7 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722439470236</updated>
       <workItem from="1722439471276" duration="2561000" />
-      <workItem from="1722474435649" duration="18540000" />
+      <workItem from="1722474435649" duration="19126000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -276,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722505198647</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Complete some functions of book management">
+      <option name="closed" value="true" />
+      <created>1722507929031</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722507929031</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +297,7 @@
     <MESSAGE value="Complete the logout function" />
     <MESSAGE value="Complete the borrow function" />
     <MESSAGE value="Complete the return book function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete the return book function" />
+    <MESSAGE value="Complete some functions of book management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete some functions of book management" />
   </component>
 </project>
