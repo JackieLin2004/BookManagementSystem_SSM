@@ -2,12 +2,15 @@ package org.example.service.impl;
 
 import jakarta.annotation.Resource;
 import org.example.entity.Account;
+import org.example.entity.Student;
 import org.example.mapper.UserMapper;
 import org.example.service.UserService;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -24,5 +27,10 @@ public class UserServiceImpl implements UserService {
                 .password(account.getPassword())
                 .roles(account.getRole())
                 .build();
+    }
+
+    @Override
+    public List<Student> getStudentList() {
+        return mapper.getStudentList();
     }
 }
