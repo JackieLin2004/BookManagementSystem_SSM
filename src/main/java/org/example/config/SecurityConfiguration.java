@@ -57,6 +57,11 @@ public class SecurityConfiguration {
                     config.defaultSuccessUrl("/");
                     config.permitAll();
                 })
+                .logout(config -> {
+                    config.logoutUrl("/doLogout");
+                    config.logoutSuccessUrl("/login");
+                    config.permitAll();
+                })
                 .csrf(AbstractHttpConfigurer::disable)
                 .rememberMe(config -> {
                     config.tokenRepository(repository);
