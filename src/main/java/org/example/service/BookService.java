@@ -11,4 +11,6 @@ public interface BookService {
     List<Book> getBookList();
 
     void addBorrow(int sid, int bid);
+
+    void returnBook(int bid);
 }

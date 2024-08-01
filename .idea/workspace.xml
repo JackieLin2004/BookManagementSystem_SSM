@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be19e4db-d701-4d8e-9c30-f3b5f03bbc7f" name="Changes" comment="Complete the logout function">
+    <list default="true" id="be19e4db-d701-4d8e-9c30-f3b5f03bbc7f" name="Changes" comment="Complete the borrow function">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/BorrowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/BorrowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/BookServiceImpl.java" afterDir="false" />
@@ -208,7 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722439470236</updated>
       <workItem from="1722439471276" duration="2561000" />
-      <workItem from="1722474435649" duration="15927000" />
+      <workItem from="1722474435649" duration="16334000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -258,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722504270834</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Complete the borrow function">
+      <option name="closed" value="true" />
+      <created>1722504804301</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722504804301</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +279,7 @@
     <MESSAGE value="Complete some borrowing configurations" />
     <MESSAGE value="Complete the login and Home redirect, as well as the general information of the Home" />
     <MESSAGE value="Complete the logout function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete the logout function" />
+    <MESSAGE value="Complete the borrow function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete the borrow function" />
   </component>
 </project>

@@ -29,4 +29,9 @@ public class BookServiceImpl implements BookService {
     public void addBorrow(int sid, int bid) {
         mapper.addBorrow(sid, bid);
     }
+
+    @Override
+    public void returnBook(int id) {
+        mapper.deleteBorrow(id);
+    }
 }

@@ -43,4 +43,10 @@ public class BorrowController {
         service.addBorrow(student, book);
         return "redirect:/borrow";
     }
+
+    @GetMapping("/return-book")
+    public String returnBook(int id) {
+        service.returnBook(id);
+        return "redirect:/borrow";
+    }
 }
