@@ -9,4 +9,6 @@ public interface BookService {
     List<Borrow> getBorrowList();
 
     List<Book> getBookList();
+
+    void addBorrow(int sid, int bid);
 }

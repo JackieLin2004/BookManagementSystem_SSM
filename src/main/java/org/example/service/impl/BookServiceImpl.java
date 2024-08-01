@@ -24,4 +24,9 @@ public class BookServiceImpl implements BookService {
     public List<Book> getBookList() {
         return mapper.getBookList();
     }
+
+    @Override
+    public void addBorrow(int sid, int bid) {
+        mapper.addBorrow(sid, bid);
+    }
 }

@@ -9,8 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be19e4db-d701-4d8e-9c30-f3b5f03bbc7f" name="Changes" comment="Complete the login and Home redirect, as well as the general information of the Home">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/SecurityConfiguration.java" afterDir="false" />
+    <list default="true" id="be19e4db-d701-4d8e-9c30-f3b5f03bbc7f" name="Changes" comment="Complete the logout function">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/BorrowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/BorrowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/BookServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722439470236</updated>
       <workItem from="1722439471276" duration="2561000" />
-      <workItem from="1722474435649" duration="15494000" />
+      <workItem from="1722474435649" duration="15927000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -248,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722503479260</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Complete the logout function">
+      <option name="closed" value="true" />
+      <created>1722504270834</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722504270834</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +270,7 @@
     <MESSAGE value="Complete the login and remember me related functions" />
     <MESSAGE value="Complete some borrowing configurations" />
     <MESSAGE value="Complete the login and Home redirect, as well as the general information of the Home" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete the login and Home redirect, as well as the general information of the Home" />
+    <MESSAGE value="Complete the logout function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete the logout function" />
   </component>
 </project>
