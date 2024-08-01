@@ -9,8 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be19e4db-d701-4d8e-9c30-f3b5f03bbc7f" name="Changes" comment="Complete the function of the student list">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/listener/MySqlListener.java" afterDir="false" />
+    <list default="true" id="be19e4db-d701-4d8e-9c30-f3b5f03bbc7f" name="Changes" comment="Bug fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add-book.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/add-book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add-borrow.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/add-borrow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/borrow.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/borrow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/student.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/student.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +213,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722439470236</updated>
       <workItem from="1722439471276" duration="2561000" />
-      <workItem from="1722474435649" duration="19708000" />
+      <workItem from="1722474435649" duration="20456000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -297,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722508769578</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Bug fixed">
+      <option name="closed" value="true" />
+      <created>1722508991061</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722508991061</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +329,7 @@
     <MESSAGE value="Complete some functions of book management" />
     <MESSAGE value="Complete the function to add and delete books" />
     <MESSAGE value="Complete the function of the student list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete the function of the student list" />
+    <MESSAGE value="Bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fixed" />
   </component>
 </project>

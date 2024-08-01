@@ -101,6 +101,7 @@
                                             <tr>
                                                 <th>学号</th>
                                                 <th>姓名</th>
+                                                <th>年龄</th>
                                                 <th>性别</th>
                                                 <th>年级</th>
                                             </tr>
@@ -109,6 +110,7 @@
                                                 <tr th:each="student : ${student_list}">
                                                     <td th:text="'#'+${student.getId()}">Scott Henry</td>
                                                     <td th:text="${student.getName()}">Scott Henry</td>
+                                                    <td th:text="${student.getAge()}">Scott Henry</td>
                                                     <td th:text="${student.getSex()}">Scott Henry</td>
                                                     <td th:text="${student.getGrade()}+'级'">2210 Grove Street Bethpage, NI 440014</td>
                                                 </tr>
@@ -123,7 +125,7 @@
 
 
                 <div class="ad-footer-btm">
-                    <p>Copyright © 2021.Company name All rights reserved.<a target="_blank" href="https://sc.chinaz.com/moban/">网页模板</a></p>
+                    <p>Copyright © 2024. JackieLin All rights reserved.</p>
                 </div>
             </div>
         </div>
