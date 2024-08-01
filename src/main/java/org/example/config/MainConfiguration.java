@@ -19,7 +19,7 @@ public class MainConfiguration {
     @Bean
     public DataSource dataSource() {
         return new PooledDataSource("com.mysql.cj.jdbc.Driver",
-                "jdbc:mysql://localhost:3306/book", "root", "20040304");
+                "jdbc:mysql://localhost:3306/book_manage_ssm", "root", "20040304");
     }
 
     @Bean
