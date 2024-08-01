@@ -7,7 +7,7 @@ import org.example.mapper.BookMapper;
 import org.example.service.BookService;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import java.util.*;
 
 @Service
 public class BookServiceImpl implements BookService {
@@ -21,8 +21,22 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    public List<Book> getBookList() {
-        return mapper.getBookList();
+    public Map<Book, Boolean> getBookList() {
+        Set<Integer> set = new HashSet<>();
+        this.getBorrowList().forEach(borrow -> set.add(borrow.getBid()));
+        Map<Book, Boolean> map = new LinkedHashMap<>();
+        mapper.getBookList().forEach(book -> map.put(book, set.contains(book.getId())));
+        return map;
+    }
+
+    @Override
+    public List<Book> getActiveBookList() {
+        Set<Integer> set = new HashSet<>();
+        this.getBorrowList().forEach(borrow -> set.add(borrow.getBid()));
+        return mapper.getBookList()
+                .stream()
+                .filter(book -> !set.contains(book.getId()))
+                .toList();
     }
 
     @Override

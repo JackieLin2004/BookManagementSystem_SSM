@@ -33,7 +33,7 @@ public class BorrowController {
     public String addBorrow(Model model) {
         User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         model.addAttribute("nickname", user.getUsername());
-        model.addAttribute("book_list", service.getBookList());
+        model.addAttribute("book_list", service.getActiveBookList());
         model.addAttribute("student_list", userService.getStudentList());
         return "add-borrow";
     }
